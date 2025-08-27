@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -25,6 +26,10 @@ export default function Home() {
             Save and see your changes instantly.
           </li>
         </ol>
+
+        <div className="p-4">
+          <Button>Click Me</Button>
+        </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
